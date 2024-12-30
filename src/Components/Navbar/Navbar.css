@@ -12,7 +12,7 @@ nav {
 .nav-btn {
   background-color: #121212;
   color: #39c94b;
-  font-family: poppins;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 18px;
   font-weight: 600;
   width: 170px;
@@ -25,4 +25,19 @@ nav {
 
 .nav-btn:hover {
   color: var(--css-white);
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('src/assets/fonts/poppins/Poppins-Regular.woff2') format('woff2'),
+       url('src/assets/fonts/poppins/Poppins-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('src/assets/fonts/poppins/Poppins-Bold.woff2') format('woff2'),
+       url('src/assets/fonts/poppins/Poppins-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
 }
