@@ -1,0 +1,26 @@
+.section-container {
+  margin: 20px;
+}
+
+.text-container {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapse-btn {
+  color: #34c934;
+  cursor: pointer;
+}
+
+.card-container {
+  margin: 20px 5px;
+}
+
+.card-text {
+  color: white;
+  
+ 
+}
