@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
 nav {
   background-color: #39c94b;
   width: 96%%;
@@ -26,18 +29,5 @@ nav {
 .nav-btn:hover {
   color: var(--css-white);
 }
-@font-face {
-  font-family: 'Poppins';
-  src: url('src/assets/fonts/poppins/Poppins-Regular.woff2') format('woff2'),
-       url('src/assets/fonts/poppins/Poppins-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: 'Poppins';
-  src: url('src/assets/fonts/poppins/Poppins-Bold.woff2') format('woff2'),
-       url('src/assets/fonts/poppins/Poppins-Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-}
+
