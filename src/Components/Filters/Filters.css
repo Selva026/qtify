@@ -12,6 +12,7 @@
   transition: all ease-out 0.4 s;
   padding: 10px 30px;
   cursor: pointer;
+  color: #ffffff;
 }
 .filters p:active {
   background-color: rgba(256, 256, 256, 0.1);
